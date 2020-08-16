@@ -3,6 +3,7 @@
   "compilerOptions": {
     "typeRoots": ["node_modules/@types"],
     "module": "commonjs",
+    "target": "es5",
     "lib": ["esnext","dom"],
     "sourceMap": true,
     "allowJs": false,
@@ -16,9 +17,10 @@
     "allowSyntheticDefaultImports": true,
     "noUnusedLocals": true,
     "baseUrl": ".",
+    "outDir": "out",
     "paths": {
       
-    }
+    },
   },
   "exclude": [
   ]
