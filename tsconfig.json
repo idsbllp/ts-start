@@ -3,7 +3,7 @@
   "compilerOptions": {
     "typeRoots": ["node_modules/@types"],
     "module": "commonjs",
-    "target": "es5",
+    "target": "esnext",
     "lib": ["esnext","dom"],
     "sourceMap": true,
     "allowJs": false,

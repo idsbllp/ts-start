@@ -1,5 +1,8 @@
+import dayjs from 'dayjs';
+
+
 type Str = string;
 
-const foo: string = 'string';
+const foo: Str = 'string';
 
-console.log(foo);
+console.log(foo, dayjs());
