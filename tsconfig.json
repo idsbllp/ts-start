@@ -12,7 +12,7 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": false,
     "strictNullChecks": true,
-    "suppressImplicitAnyIndexErrors": true,
+    "noImplicitAny": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "allowSyntheticDefaultImports": true,
